@@ -19,6 +19,11 @@ body {
   background-repeat: no-repeat, no-repeat;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 ul {
   list-style: none;
 }
@@ -33,8 +38,8 @@ ul {
 }
 
 .header__container {
-  margin: 25px auto 80px;
   width: 1140px;
+  margin: 25px auto 80px;
   height: 130px;
 }
 
@@ -46,11 +51,6 @@ ul {
 .contacts {
   display: inline-block;
   vertical-align: middle;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
 }
 
 .menu {
@@ -65,8 +65,14 @@ a {
   color: #ff3d00;
 }
 
+.menu__item--active {
+  color: #ff3d00;
+}
+
 .contacts {
   font-style: normal;
+  text-align: right;
+  vertical-align: bottom;
 }
 
 .contacts__phone {
@@ -74,12 +80,16 @@ a {
 }
 
 .contacts__workhours {
+  line-height: 1.1;
   text-decoration: underline;
   color: #ff3d00;
-  text-align: right;
 }
 .contacts__workhours:hover {
   cursor: pointer;
+}
+
+.hero {
+  margin-bottom: 233px;
 }
 
 .hero__container {
@@ -106,12 +116,11 @@ a {
 }
 
 .button {
-  display: block;
-  width: 168px;
+  display: inline-block;
   height: 55px;
   padding: 18px 53px;
   font-weight: bold;
-  line-height: 1.36;
+  line-height: 1.3;
   text-transform: uppercase;
   border-radius: 35px;
   background-color: #ff5500;
@@ -122,12 +131,10 @@ a {
 }
 
 .hero__button {
-  width: 195px;
-  margin: 43px auto 0;
+  margin: 0 auto;
 }
 
 .services {
-  margin-top: 233px;
   margin-bottom: 180px;
 }
 
@@ -136,6 +143,7 @@ a {
 }
 
 .service {
+  display: inline-block;
   width: 362px;
   background-color: #fff;
   border: 5px solid #fff;
@@ -143,19 +151,25 @@ a {
   font-size: 14px;
   color: #666;
   padding-left: 30px;
-  padding-right: 30px;
+  padding-right: 16px;
   padding-top: 35px;
 }
 
-.services__item {
-  display: inline-block;
+.service__icon:first-child {
+  height: 76px;
 }
+
 .services__item + .services__item {
-  margin-left: 34px;
+  margin-left: 30px;
 }
 
 .services__item--active {
   border: 5px solid #ccc;
+}
+
+.services__item:hover .service__button {
+  background-color: #ff5500;
+  color: #fff;
 }
 
 .service__content {
@@ -191,11 +205,11 @@ a {
 }
 
 .service__feature-option {
+  color: #000;
   font-weight: bold;
 }
 
 .service__button {
-  width: 198px;
   background-color: #fff;
   color: #ff5500;
   border: 2px solid #ff5500;
@@ -206,7 +220,101 @@ a {
   background-color: #ff5500;
   color: #fff;
 }
-.service__button:hover {
-  background-color: #ff5500;
+
+.promotions {
+  margin-bottom: 124px;
   color: #fff;
+}
+
+.promoutions__title {
+  font-size: 36px;
+  line-height: 1.4;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 51px;
+}
+
+.promotion {
+  display: inline-block;
+  position: relative;
+  width: 557px;
+  min-height: 394px;
+}
+
+.promotions__item + .promotions__item {
+  margin-left: 25px;
+}
+
+.promotions__item--opacity {
+  background-color: rgba(90, 90, 90, 0.4);
+}
+
+.promotion__content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-height: 130px;
+  padding: 32px 35px;
+}
+
+.promotion__date {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.promotion__name {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 6px;
+}
+
+.promotion__text {
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+.paginator {
+  font-size: 16px;
+  text-align: center;
+  margin: 45px auto;
+}
+
+.paginator__list {
+  font-size: 0;
+  font-weight: bold;
+}
+
+.paginator__text,
+.paginator__list,
+.paginator__item {
+  display: inline-block;
+}
+
+.paginator__text {
+  margin-right: 25px;
+  line-height: 1.25;
+}
+
+.paginator__item {
+  font-size: 16px;
+  /* margin-left: 10px; */
+}
+
+.paginator__link {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  line-height: 32px;
+}
+
+.paginator__link--active,
+.paginator__link:hover {
+  background-color: #ff5500;
+}
+
+.about {
+  margin-bottom: 53px;
 }
