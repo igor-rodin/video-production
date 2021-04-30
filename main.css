@@ -14,9 +14,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #17191c;
-  background-image: url(./images/hero.jpg), url(./images/bottom-pic.jpg);
-  background-position: left top, left 926px;
-  background-repeat: no-repeat, no-repeat;
 }
 
 a {
@@ -27,9 +24,15 @@ a {
 ul {
   list-style: none;
 }
+
 .wrapper {
   max-width: 1920px;
-  height: 100%;
+}
+
+.main-page-wrapper {
+  background-image: url(./images/hero.jpg), url(./images/bottom-pic.jpg);
+  background-position: center top, center bottom 306px;
+  background-repeat: no-repeat, no-repeat;
 }
 
 .container {
@@ -46,8 +49,6 @@ ul {
 .logo,
 .menu,
 .menu__item,
-.socials,
-.socials__item,
 .contacts {
   display: inline-block;
   vertical-align: middle;
@@ -94,7 +95,6 @@ ul {
 
 .hero__container {
   width: 776px;
-  margin: 0 auto;
 }
 
 .hero__content {
@@ -130,10 +130,6 @@ ul {
   background-color: #ff3d00;
 }
 
-.hero__button {
-  margin: 0 auto;
-}
-
 .services {
   margin-bottom: 180px;
 }
@@ -143,20 +139,27 @@ ul {
 }
 
 .service {
-  display: inline-block;
   width: 362px;
   background-color: #fff;
   border: 5px solid #fff;
   border-radius: 5px;
   font-size: 14px;
   color: #666;
-  padding-left: 30px;
-  padding-right: 16px;
-  padding-top: 35px;
+  padding: 40px 22px 53px;
 }
 
-.service__icon:first-child {
+.services__item {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.service__header {
   height: 76px;
+  position: relative;
+}
+
+.service__icon {
+  position: absolute;
 }
 
 .services__item + .services__item {
@@ -170,10 +173,6 @@ ul {
 .services__item:hover .service__button {
   background-color: #ff5500;
   color: #fff;
-}
-
-.service__content {
-  margin-left: -6px;
 }
 
 .service__title {
@@ -193,15 +192,12 @@ ul {
 
 .service__feature {
   display: inline-block;
-}
-
-.service__feature:nth-child(1) {
+  vertical-align: top;
   width: 40%;
-  margin-right: 40px;
 }
 
-.service__feature:nth-child(2) {
-  width: 45%;
+.service__feature:first-child {
+  margin-right: 55px;
 }
 
 .service__feature-option {
@@ -209,11 +205,14 @@ ul {
   font-weight: bold;
 }
 
+.service__text {
+  margin-bottom: 29px;
+}
+
 .service__button {
   background-color: #fff;
   color: #ff5500;
   border: 2px solid #ff5500;
-  margin: 29px 139px 53px -4px;
 }
 
 .service__button--active {
@@ -224,6 +223,7 @@ ul {
 .promotions {
   margin-bottom: 145px;
   color: #fff;
+  font-size: 0;
 }
 
 .promoutions__title {
@@ -235,21 +235,26 @@ ul {
 }
 
 .promotion {
-  display: inline-block;
   position: relative;
   width: 557px;
   min-height: 394px;
+}
+
+.promotions__item {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
 }
 
 .promotions__item + .promotions__item {
   margin-left: 25px;
 }
 
-.promotions__item--opacity {
+.promotions__item--opacity .promotion__image {
   background-color: rgba(90, 90, 90, 0.4);
 }
 
-.promotion_image {
+.promotion__image {
   object-fit: contain;
 }
 
@@ -319,7 +324,7 @@ ul {
 }
 
 .about {
-  margin-bottom: 100px;
+  margin-bottom: 55px;
 }
 
 .about__image,
@@ -364,6 +369,77 @@ ul {
   background-color: #ff5400;
   color: #fff;
   padding: 18px 40px;
+}
+
+.footer {
+  height: 160px;
+  padding-top: 40px;
+}
+
+.footer-container__content {
+  border-top: 4px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer__menu {
+  margin: 0 105px 0 130px;
+}
+
+.socials {
+  margin-right: 68px;
+}
+
+.socials,
+.socials__item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.socials__link {
+  display: block;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+}
+
+.socials__item + .socials__item {
+  margin-left: 10px;
+}
+
+.socials__item--tel .socials__link {
+  background-image: url("./images/socials/telegram.png");
+}
+
+.socials__item--vk .socials__link {
+  background-image: url("./images/socials/vk.png");
+}
+
+.socials__item--fb .socials__link {
+  background-image: url("./images/socials/f.png");
+}
+
+.socials__item--insta .socials__link {
+  background-image: url("./images/socials/in.png");
+}
+
+.socials__item--tel:hover .socials__link {
+  background-image: url("./images/socials/t-a.png");
+}
+
+.socials__item--vk:hover .socials__link {
+  background-image: url("./images/socials/vk-a.png");
+}
+
+.socials__item--fb:hover .socials__link {
+  background-image: url("./images/socials/fb-a.png");
+}
+
+.socials__item--insta:hover .socials__link {
+  background-image: url("./images/socials/in-a.png");
+}
+
+.contacts__text {
+  font-size: 11px;
+  color: #9a9a9a;
 }
 
 .contacts__text {
