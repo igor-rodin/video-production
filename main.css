@@ -41,10 +41,13 @@ ul {
   margin: 0 auto;
 }
 
+.header {
+  margin-top: 25px;
+  margin-bottom: 160px;
+}
+
 .header__container {
   width: 1140px;
-  margin: 25px auto 80px;
-  height: 130px;
 }
 
 .logo,
