@@ -27,6 +27,7 @@ ul {
 
 .wrapper {
   max-width: 1920px;
+  height: 100%;
 }
 
 .main-page-wrapper {
@@ -435,11 +436,6 @@ ul {
 
 .socials__item--insta:hover .socials__link {
   background-image: url("./images/socials/in-a.png");
-}
-
-.contacts__text {
-  font-size: 11px;
-  color: #9a9a9a;
 }
 
 .contacts__text {
