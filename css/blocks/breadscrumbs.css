@@ -1,0 +1,22 @@
+.breadscrumbs {
+  text-transform: capitalize;
+  color: #9a9a9a;
+}
+
+.breadscrumbs__list {
+  display: flex;
+}
+
+.breadscrumbs__link {
+  text-decoration: underline;
+}
+
+.breadscrumbs__item + .breadscrumbs__item::before {
+  font-weight: normal;
+  padding: 0 4px;
+  content: "/";
+}
+
+.breadscrumbs__item--active {
+  font-weight: 600;
+}

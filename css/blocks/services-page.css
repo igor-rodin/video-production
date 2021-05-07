@@ -1,0 +1,10 @@
+.services-page {
+  background: url(../../images/top-line.jpg) center top no-repeat;
+}
+
+.services-page__header {
+  min-height: 416px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 27px;
+}

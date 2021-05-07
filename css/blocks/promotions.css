@@ -1,0 +1,34 @@
+.promotions {
+  color: #fff;
+}
+
+.promotions__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.promotions__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 45px;
+}
+
+.promotions__item {
+  width: calc(100% / 2 - 25px);
+}
+
+.promotions__item--opacity .promotion__image {
+  background-color: rgba(90, 90, 90, 0.4);
+}
+
+.promotions__title {
+  font-size: 36px;
+  line-height: 1.4;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 51px;
+}

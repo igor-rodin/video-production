@@ -1,0 +1,35 @@
+.promotion {
+  position: relative;
+  min-height: 394px;
+  font-size: 14px;
+}
+
+.promotion__image {
+  object-fit: contain;
+}
+
+.promotion__content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-height: 130px;
+  padding: 32px 35px;
+}
+
+.promotion__date {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.promotion__name {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 6px;
+}
+
+.promotion__text {
+  font-size: 16px;
+  line-height: 1.3;
+}

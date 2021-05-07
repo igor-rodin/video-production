@@ -1,0 +1,43 @@
+.about__image,
+.about__content {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.about__content {
+  width: 785px;
+  min-height: 455px;
+  font-size: 16px;
+  color: #060606;
+  line-height: 1.7;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 68px 81px;
+  margin-left: 360px;
+  margin-top: -410px;
+}
+
+.about__title {
+  font-size: 36px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.about__text {
+  margin-bottom: 43px;
+}
+
+.about__text p {
+  margin-bottom: 20px;
+}
+
+.about__text p:last-child {
+  margin-bottom: 0;
+}
+
+.about__button {
+  background-color: #ff5400;
+  color: #fff;
+  padding: 18px 40px;
+}

@@ -1,0 +1,41 @@
+.offer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.offer__image {
+  object-fit: contain;
+}
+
+.offer__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12px 0 12px 58px;
+}
+
+.offer__name {
+  color: #000;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.36;
+  margin-bottom: 28px;
+}
+
+.offer__text {
+  color: #303030;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 34px;
+}
+
+.offer__button {
+  margin-top: auto;
+}
+
+.offer:hover .offer__button,
+.offer__button:hover {
+  background-color: #ff3d00;
+  color: #fff;
+}

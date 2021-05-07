@@ -1,0 +1,26 @@
+.hero__container {
+  width: 776px;
+}
+
+.hero__content {
+  text-align: center;
+}
+
+.hero__tagline {
+  margin-bottom: 17px;
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+
+.hero__text {
+  margin-bottom: 43px;
+  font-size: 18px;
+  line-height: 1.1;
+}
+
+.hero__button {
+  background-color: #ff5500;
+  color: #ffffff;
+}

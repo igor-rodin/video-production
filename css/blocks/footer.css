@@ -1,0 +1,11 @@
+.footer {
+  padding-top: 40px;
+  padding-bottom: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-container__content {
+  border-top: 4px solid rgba(255, 255, 255, 0.1);
+}

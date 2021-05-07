@@ -1,0 +1,26 @@
+.main-page {
+  background-image: url(../../images/hero.jpg), url(../../images/bottom-pic.jpg);
+  background-position: center top, center bottom 306px;
+  background-repeat: no-repeat, no-repeat;
+  background-color: #17191c;
+}
+
+.main-page__header {
+  margin-bottom: 160px;
+}
+
+.main-page__hero {
+  margin-bottom: 233px;
+}
+
+.main-page__services {
+  margin-bottom: 180px;
+}
+
+.main-page__promotions {
+  margin-bottom: 145px;
+}
+
+.main-page__about {
+  margin-bottom: 55px;
+}
