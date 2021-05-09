@@ -35,10 +35,6 @@
   justify-content: center;
 }
 
-.partners__image {
-  /* filter: saturate(0); */
-}
-
 .partners__item--divico:hover {
   filter: saturate(1);
 }
