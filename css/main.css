@@ -7,9 +7,11 @@
 @import url(./blocks/header.css);
 @import url(./blocks/menu.css);
 @import url(./blocks/contacts.css);
+@import url(./blocks/socials.css);
 @import url(./blocks/hero.css);
-@import url(./blocks/service.css);
 @import url(./blocks/services.css);
+@import url(./blocks/service.css);
+@import url(./blocks/socials.css);
 @import url(./blocks/promotions.css);
 @import url(./blocks/promotion.css);
 @import url(./blocks/about.css);

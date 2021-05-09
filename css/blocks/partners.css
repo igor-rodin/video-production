@@ -3,7 +3,7 @@
   font-size: 48px;
   font-weight: bold;
   line-height: 1.35;
-  margin-bottom: 73px;
+  margin-bottom: 64px;
 }
 
 .partners__list {
@@ -15,77 +15,58 @@
 }
 
 .partners__item {
+  margin-bottom: 25px;
+  filter: saturate(0);
+}
+
+.partners__item:nth-child(1) {
+  margin-left: -46px;
+}
+
+.partners__item:nth-child(5) {
+  margin-left: -32px;
+}
+
+.partners__link {
+  width: 270px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.partners__link {
-  width: 250px;
-  height: 140px;
-  filter: saturate(0);
+.partners__image {
+  /* filter: saturate(0); */
 }
 
-.partners__item--divico .partners__link {
-  background: url(../../images/partners/divico.png) no-repeat;
-}
-
-.partners__item--divico:hover .partners__link {
+.partners__item--divico:hover {
   filter: saturate(1);
 }
 
-.partners__item--ds .partners__link {
-  background: url(../../images/partners/ds.png) no-repeat;
-}
-
-.partners__item--ds:hover .partners__link {
+.partners__item--ds:hover .partners__image {
   filter: saturate(1);
 }
 
-.partners__item--park .partners__link {
-  background: url(../../images/partners/park.png) no-repeat;
-}
-
-.partners__item--park:hover .partners__link {
+.partners__item--park:hover {
   filter: saturate(1);
 }
 
-.partners__item--zvibes .partners__link {
-  background: url(../../images/partners/zvibes.png) no-repeat;
-}
-
-.partners__item--zvibes:hover .partners__link {
+.partners__item--zvibes:hover {
   filter: saturate(1);
 }
 
-.partners__item--rosvideo .partners__link {
-  background: url(../../images/partners/rosvideo.png) no-repeat;
-}
-
-.partners__item--rosvideo:hover .partners__link {
+.partners__item--rosvideo:hover {
   filter: saturate(1);
 }
 
-.partners__item--zavod .partners__link {
-  background: url(../../images/partners/zavod.png) no-repeat;
-}
-
-.partners__item--zavod:hover .partners__link {
+.partners__item--zavod:hover {
   filter: saturate(1);
 }
 
-.partners__item--pixel .partners__link {
-  background: url(../../images/partners/pixel.png) no-repeat;
-}
-
-.partners__item--pixel:hover .partners__link {
+.partners__item--pixel:hover {
   filter: saturate(1);
 }
 
-.partners__item--expotv .partners__link {
-  background: url(../../images/partners/expotv.png) no-repeat;
-}
-
-.partners__item--expotv:hover .partners__link {
+.partners__item--expotv:hover {
   filter: saturate(1);
 }

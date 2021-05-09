@@ -4,6 +4,10 @@
 }
 
 .offer__image {
+  width: 460px;
+}
+
+.offer-pic {
   object-fit: contain;
 }
 

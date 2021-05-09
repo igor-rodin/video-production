@@ -1,14 +1,11 @@
 .service {
   min-height: 478px;
-  display: flex;
-  flex-direction: column;
   background-color: #fff;
   border: 5px solid #fff;
   border-radius: 5px;
   font-size: 14px;
   color: #666;
   padding: 40px 22px 53px;
-  overflow: hidden;
 }
 
 .service__header {
@@ -17,7 +14,6 @@
 }
 
 .service__content {
-  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: start;

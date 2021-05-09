@@ -2,14 +2,6 @@
   color: #fff;
 }
 
-.promotions__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
-}
-
 .promotions__list {
   display: flex;
   justify-content: space-between;
