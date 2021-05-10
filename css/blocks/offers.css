@@ -7,9 +7,12 @@
   padding-bottom: 64px;
 }
 
-.offers__item + .offers__item {
-  min-height: 333px;
-  margin-top: 49px;
+.offers__item {
+  margin-bottom: 49px;
+}
+
+.offers__item:last-child { 
+  margin-bottom: 0;
 }
 
 .offers__paginator {

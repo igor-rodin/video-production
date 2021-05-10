@@ -19,13 +19,9 @@
   filter: saturate(0);
 }
 
-.partners__item:nth-child(1) {
-  margin-left: -46px;
-}
-
-.partners__item:nth-child(5) {
-  margin-left: -32px;
-  margin-right: -61px;
+.partners__item:nth-child(4n+1) .partners__link {
+  justify-content: flex-start;
+  max-width: 210px;
 }
 
 .partners__link {
