@@ -12,7 +12,12 @@
   border: 5px solid #ccc;
 }
 
+.services__item .service__button {
+  transition: 0.5s;
+}
+
 .services__item:hover .service__button {
   background-color: #ff3d00;
   color: #fff;
+  transition: 0.5s;
 }

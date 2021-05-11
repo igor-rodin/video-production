@@ -9,8 +9,10 @@
   background-color: #fff;
   color: #ff5500;
   border: 2px solid #ff5500;
+  transition: background-color 0.5s;
 }
 
 .button:hover {
   background-color: #ff3d00;
+  transition: 0.5s;
 }

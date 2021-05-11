@@ -7,7 +7,11 @@
   justify-content: space-between;
 }
 
+.menu__item{
+  transition: 0.5s;
+}
 .menu__item:hover {
+  transition: 0.5s;
   color: #ff3d00;
 }
 

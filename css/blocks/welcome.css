@@ -1,0 +1,22 @@
+.welcome-page {
+  align-items: center;
+  justify-content: center;
+  background: url(../../images/rec.png) center center no-repeat, url(../../images/welcome-bg.jpg) center center no-repeat;
+}
+
+.welcome__content {
+  display: flex;
+  opacity: 0;
+  flex-direction: column;
+  align-items: center;
+  animation: vp_welcome 1s cubic-bezier(.55, .45, .61, .76) 0.2s forwards;
+}
+
+.welcome__logo {
+  margin-bottom: 38px;
+}
+
+.welcome__button {
+  color: #fff;
+  background-color: #FF5500;
+}

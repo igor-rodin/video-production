@@ -1,6 +1,8 @@
+@import url(./animations.css);
 @import url(./layouts/normalize.css);
 @import url(./layouts/base.css);
 @import url(./blocks/button.css);
+@import url(./blocks/welcome.css);
 @import url(./blocks/paginator.css);
 @import url(./blocks/main-page.css);
 @import url(./blocks/header-content.css);

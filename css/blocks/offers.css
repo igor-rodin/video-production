@@ -21,5 +21,6 @@
 
 .offers__paginator .paginator__link--active,
 .offers__paginator .paginator__link:hover {
+  transition: 0.5s;
   color: #ffffff;
 }

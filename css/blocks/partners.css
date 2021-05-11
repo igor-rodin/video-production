@@ -17,6 +17,11 @@
 .partners__item {
   margin-bottom: 25px;
   filter: saturate(0);
+  transition: 0.5s;
+}
+
+.partners__item:hover {
+  transition: 0.5s;
 }
 
 .partners__item:nth-child(4n+1) .partners__link {

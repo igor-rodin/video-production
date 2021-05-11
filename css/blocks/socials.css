@@ -2,6 +2,10 @@
   width: 174px;
 }
 
+.socials__item:hover .socials__link {
+  transition: 0.5s;
+}
+
 .socials__list {
   display: flex;
   justify-content: space-between;
@@ -12,6 +16,7 @@
   width: 36px;
   height: 36px;
   line-height: 36px;
+  transition: 0.5s;
 }
 
 .socials__item--tel .socials__link {

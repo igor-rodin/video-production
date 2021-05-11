@@ -38,8 +38,13 @@
   margin-top: auto;
 }
 
+.offer .offer__button {
+  transition: background-color 0.5s, color 0.5s;
+}
+
 .offer:hover .offer__button,
 .offer__button:hover {
   background-color: #ff3d00;
   color: #fff;
+  transition: 0.5s;
 }
