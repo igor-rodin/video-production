@@ -2,6 +2,7 @@
 @import url(./layouts/normalize.css);
 @import url(./layouts/base.css);
 @import url(./blocks/button.css);
+@import url(./blocks/schedule.css);
 @import url(./blocks/welcome.css);
 @import url(./blocks/paginator.css);
 @import url(./blocks/main-page.css);

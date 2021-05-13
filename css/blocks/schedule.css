@@ -1,0 +1,46 @@
+.schedule {
+  position: absolute;
+  width: 157px;
+  height: 68px;
+  padding: 11px 17px;
+  background-color: rgba(205, 209, 210, 0.8);
+  border-radius: 4px;
+  top: calc(100% + 9px);
+  /* opacity: 1; */
+  transition: opacity 0.5s;
+  left: 27px;
+  color: #1E1F20;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.schedule::before {
+  position: absolute;
+  content: "";
+  display: block;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 9px 11px;
+  width: 0px;
+  height: 0px;
+  border-bottom-color: rgba(205, 209, 210, 0.8);
+  top: -18px;
+  left: 60%;
+}
+
+.schedule::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 157px;
+  height: 77px;
+  background-color: transparent;
+  top: -9px;
+  left: 0px;
+}
+
+.schedule__working{
+  font-weight: bold ;
+}

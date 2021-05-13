@@ -2,51 +2,73 @@
   width: 174px;
 }
 
-.socials__item:hover .socials__link {
-  transition: 0.5s;
-}
-
 .socials__list {
   display: flex;
   justify-content: space-between;
 }
 
 .socials__link {
+  position: relative;
   display: block;
   width: 36px;
   height: 36px;
   line-height: 36px;
-  transition: 0.5s;
 }
 
-.socials__item--tel .socials__link {
-  background-image: url("../../images/socials/telegram.png");
+.socials__link::after,
+.socials__link::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  transition: opacity 0.5s;
+  background-image: url("../../images/icons/socials.png");
 }
 
-.socials__item--vk .socials__link {
-  background-image: url("../../images/socials/vk.png");
+.socials__link::before {
+  opacity: 0;
 }
 
-.socials__item--fb .socials__link {
-  background-image: url("../../images/socials/f.png");
+.socials__link:hover::before {
+  opacity: 1;
 }
 
-.socials__item--insta .socials__link {
-  background-image: url("../../images/socials/in.png");
+.socials__link:hover::after {
+  opacity: 0;
 }
 
-.socials__item--tel:hover .socials__link {
-  background-image: url("../../images/socials/t-a.png");
+.socials__item--tel .socials__link::after {
+  background-position: -122px -66px;
 }
 
-.socials__item--vk:hover .socials__link {
-  background-image: url("../../images/socials/vk-a.png");
+.socials__item--tel .socials__link::before {
+  background-position: -122px -10px;
 }
 
-.socials__item--fb:hover .socials__link {
-  background-image: url("../../images/socials/fb-a.png");
+.socials__item--vk .socials__link::after {
+  background-position: -66px -122px;
 }
 
-.socials__item--insta:hover .socials__link {
-  background-image: url("../../images/socials/in-a.png");
+.socials__item--vk .socials__link::before {
+  background-position: -10px -122px;
+}
+
+.socials__item--fb .socials__link::after {
+  background-position: -66px -10px;
+}
+
+.socials__item--fb .socials__link::before {
+  background-position: -10px -10px;
+}
+
+.socials__item--insta .socials__link::after {
+  background-position: -66px -66px;
+}
+
+.socials__item--insta .socials__link::before {
+  background-position: -10px -66px;
 }

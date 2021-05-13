@@ -8,10 +8,9 @@
 }
 
 .menu__item{
-  transition: 0.5s;
+  transition: color 0.5s;
 }
 .menu__item:hover {
-  transition: 0.5s;
   color: #ff3d00;
 }
 
