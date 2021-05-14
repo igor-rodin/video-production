@@ -1,4 +1,10 @@
-.welcome-page {
+.welcome{
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
   align-items: center;
   justify-content: center;
   background: url(../../images/rec.png) center center no-repeat, url(../../images/welcome-bg.jpg) center center no-repeat;

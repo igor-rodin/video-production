@@ -1,0 +1,29 @@
+.form-btn {
+  padding: 18px 40px;
+  border-radius: 35px;
+  background-color: #eee;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  transition: background-color 0.5s;
+}
+
+.form-btn:hover{
+  cursor: pointer;
+}
+
+.form-btn--color-gray {
+  background-color: #8E8E8E;
+}
+
+.form-btn--color-red {
+  background-color: #FF5500;
+}
+
+.form-btn--color-gray:hover {
+  background-color: #2B2B2B;
+}
+
+.form-btn--color-red:hover {
+  background-color: #FF3D00;
+}

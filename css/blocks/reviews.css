@@ -1,0 +1,19 @@
+.reviews {
+  padding-top: 94px;
+  padding-bottom: 64px;
+}
+
+.reviews__container {
+  width: 1141px;
+  ;
+}
+
+.reviews__list {
+  column-count: 2;
+  column-gap: 27px;
+  margin-bottom: 70px;
+}
+
+.reviews__item {
+  margin-bottom: 17px;
+}

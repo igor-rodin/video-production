@@ -1,0 +1,17 @@
+.banner {
+  padding-top: 117px;
+  padding-bottom: 117px;
+  min-height: 363px;
+  background: #373737 url("../../images/party.png") no-repeat center right 196px;
+}
+
+.banner__tagline {
+  max-width: 50%;
+  font-size: 48px;
+  line-height: 1.35;
+  font-weight: bold;
+}
+
+.banner__option {
+  color: #FF5400;
+}

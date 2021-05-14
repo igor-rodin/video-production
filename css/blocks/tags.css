@@ -1,0 +1,13 @@
+.tags {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.tags__item {
+  margin-right: 18px;
+}
+
+.tags__item:last-child {
+  margin-right: 0;
+}

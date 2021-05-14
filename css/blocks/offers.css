@@ -1,11 +1,12 @@
-.offers__list {
-  margin-bottom: 65px;
-}
-
 .offers {
   padding-top: 94px;
   padding-bottom: 64px;
 }
+
+.offers__list {
+  margin-bottom: 65px;
+}
+
 
 .offers__item {
   margin-bottom: 49px;
