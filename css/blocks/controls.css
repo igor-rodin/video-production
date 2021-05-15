@@ -3,21 +3,24 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  gap: 6px 10px;
 }
 
-.controls__item {
-  margin-right: 5px;
-  margin-bottom: 10px;
+.controls__tag {
+  padding: 9px 15px;
 }
 
 .control__elem {
+  position: relative;
   cursor: pointer;
 }
 
 .controls__checkbox {
   appearance: none;
+  position: absolute;
 }
 
-.controls__checkbox:checked~.controls__tag {
+.controls__checkbox ~ .controls__tag:hover,
+.controls__checkbox:checked ~ .controls__tag {
   background-color: #F2D4C9;
 }

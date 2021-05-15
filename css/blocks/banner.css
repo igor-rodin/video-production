@@ -1,12 +1,12 @@
 .banner {
-  padding-top: 117px;
+  padding-top: 140px;
   padding-bottom: 117px;
   min-height: 363px;
   background: #373737 url("../../images/party.png") no-repeat center right 196px;
 }
 
 .banner__tagline {
-  max-width: 50%;
+  max-width: 550px;
   font-size: 48px;
   line-height: 1.35;
   font-weight: bold;
