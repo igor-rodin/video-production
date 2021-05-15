@@ -1,7 +1,7 @@
 .service {
   min-height: 478px;
   background-color: #fff;
-  border: 5px solid #fff;
+  border: 5px solid transparent;
   border-radius: 5px;
   font-size: 14px;
   color: #666;
