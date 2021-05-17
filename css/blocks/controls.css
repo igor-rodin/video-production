@@ -1,18 +1,19 @@
 .controls {
   flex: 1;
-  display: inline-flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  gap: 6px 10px;
 }
 
-.controls__item {
+/* .controls__item {
   margin-right: 10px;
   margin-bottom: 6px;
 }
 
 .controls__item:last-child {
   margin-right: 0;
-}
+} */
 
 .controls__tag {
   padding: 9px 15px;
