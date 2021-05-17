@@ -1,9 +1,17 @@
 .controls {
   flex: 1;
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  gap: 6px 10px;
+}
+
+.controls__item {
+  margin-right: 10px;
+  margin-bottom: 6px;
+}
+
+.controls__item:last-child {
+  margin-right: 0;
 }
 
 .controls__tag {
@@ -17,10 +25,11 @@
 
 .controls__checkbox {
   appearance: none;
+  -webkit-appearance: none;
   position: absolute;
 }
 
-.controls__checkbox ~ .controls__tag:hover,
-.controls__checkbox:checked ~ .controls__tag {
+.controls__checkbox~.controls__tag:hover,
+.controls__checkbox:checked~.controls__tag {
   background-color: #F2D4C9;
 }

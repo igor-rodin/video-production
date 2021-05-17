@@ -4,3 +4,12 @@
   flex-wrap: wrap;
   align-items: center;
 }
+
+.tags__item {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.tags__item:last-child {
+  margin-right: 0;
+}
